@@ -1,21 +1,41 @@
+/* reset spazi a livello globale */
 * {
     margin: 0;
     padding: 0;
     }
 
+/* impostazioni header */
 header {
+    padding: 15px;
     height: 80px;
     background-color: rgb(0, 153, 255);
     background-image: url("/img/pattern.png");
-    background-size: cover;
+    background-position: top;
+    background-size: 40%;
 }
 
-#titolo {
-    margin: 20px 0 20px 0;
+#logo {
+    vertical-align: -70px;
 }
 
+/* gestione padding section */
+.set-section {
+    padding: 13px 15px 12px 15px;
+}
+
+/* setting grandezze font */
 h1 {
-    font-size: 32px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+}
+
+h3 {
+    font-size: 16px;
+    color: darkgray;
 }
 
 h5 {
@@ -30,4 +50,57 @@ h5>a {
 
 h6 {
     color: darkgray;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+/* correzione margine sinistro ul */
+ul {
+    margin-left: 15px;
+}
+
+/* setting su tabella */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+.colonna-m {
+    width: 25%;
+}
+
+.colonna-l {
+    width: 50%;
+}
+
+.riga-alternata {
+    background-color: rgb(198, 225, 242);
+}
+
+/* gestione articoli suggeriti */
+#art-uno {
+    width: 300px;
+    height: 200px;
+    background-image: url(/img/monitor.jpg);
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#art-due {
+    width: 300px;
+    height: 200px;
+    background-image: url(/img/graph.jpg);
+    background-repeat: no-repeat;
+    padding: 15px;
 }

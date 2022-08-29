@@ -10,66 +10,79 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
-        <img src="img/logo.svg" alt="The Booleaner logo" height="40px">
+        <span id="logo"><img src="img/logo.svg" alt="The Booleaner logo" height="50px"></span>
     </header>
+
+    <!-- costruzione articolo -->
     <article>
-        <section id="titolo">
+        <section class="set-section">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <h5>Scritto da <a href="#">The Booleaner</a></h5>
             <h6>il 10/10/2020</h6>
         </section>
-        <section>
+
+        <!-- gestione immagini articolo -->
+        <section class="set-section">
             <figure>
                 <img src="img/tim-1.jpg" alt="Tim Berners-Lee alla convention della Knight Foundation">
                 <img src="img/tim-2.jpg" alt="Tim Berners-Lee in primo piano">
                 <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsenz<br>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
             </figure>
         </section>
-        <section>
+
+        <section class="set-section">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod. <mark>Ipsam excepturi consequuntur soluta provident eum eaque</mark>, non officiis, laboriosam ab rem ducimus blanditiis dolores sed explicabo corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio rerum consequatur hic ad optio quo quae veritatis ut quaerat suscipit.</p>
         </section>
-        <section>
+
+        <!-- elenco non ordinato -->
+        <section class="set-section">
             <ul>
                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
                 <li>Distinctio rerum consequatur hic ad optio quo quae veritatis ut quaerat suscipit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
             </ul>
         </section>
-        <section>
+
+        <!-- tabella informazioni articolo -->
+        <section class="set-section">
             <table>
                 <thead>
                     <th>Lorem ipsum dolor</th>
                     <th>Lorem ipsum dolor</th>
                     <th>Lorem ipsum dolor</th>
                 </thead>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
+                <tr class="riga-alternata">
+                    <td class="colonna-m">Lorem ipsum dolor</td>
+                    <td class="colonna-m">Lorem ipsum dolor</td>
+                    <td class="colonna-l">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod.</td>
                 </tr>
                 <tr>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod.</td>
                 </tr>
-                <tr>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod.</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod.</td>
+                <tr class="riga-alternata">
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos rem corporis cupiditate eligendi neque deleniti reprehenderit aliquid quam facilis perspiciatis iure amet nisi sunt omnis nemo beatae voluptatibus, dicta tempora non quod.</td>
                 </tr>
             </table>
         </section>
-        <section>
+
+        <section class="set-section">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, odio facilis id ratione quam quasi doloribus. Numquam unde possimus nulla accusantium nam sequi reiciendis placeat voluptatum quos officiis, minima consequuntur, eos veritatis cupiditate ab ipsum provident similique magnam aut dolor. <mark>Minus maiores a voluptate sed, aut temporibus dicta sapiente quasi!</mark> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus id libero repudiandae laboriosam voluptas amet iusto doloremque unde, veritatis quaerat!</p>
         </section>
     </article>
-    <section>
+
+    <!-- sezione articoli suggeriti -->
+    <section class="set-section">
         <h3>Potrebbero interessarti</h3>
-        <div>
+        <div id="art-uno">
             <h2>Lorem, ipsum dolor.</h2>
         </div>
-        <div>
+        <div id="art-due">
             <h2>Lorem, ipsum dolor.</h2>
         </div>
     </section>
